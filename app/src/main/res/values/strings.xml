@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">TeachUa</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string-array name="cities">
+        <item>Київ</item>
+        <item>Харків</item>
+        <item>Дніпро</item>
+        <item>Одеса</item>
+        <item>Запоріжжя</item>
+        <item>Кропивницький</item>
+        <item>Херсон</item>
+        <item>Миколаїв</item>
+        <item>Суми</item>
+        <item>Маріуполь</item>
+        <item>Чернігів</item>
+        <item>Полтава</item>
+        <item>Кременчук</item>
+        <item>Черкаси</item>
+        <item>Без локації</item>
+    </string-array>
+
+    <string-array name="ff">
+        <item>Київ</item>
+        <item>Харків</item>
+        <item>Дніпро</item>
+        <item>Одеса</item>
+        <item>Запоріжжя</item>
+        <item>Кропивницький</item>
+        <item>Херсон</item>
+        <item>Миколаїв</item>
+        <item>Суми</item>
+        <item>Маріуполь</item>
+        <item>Чернігів</item>
+        <item>Полтава</item>
+        <item>Кременчук</item>
+        <item>Черкаси</item>
+        <item>Без локації</item>
+    </string-array>
+</resources>
