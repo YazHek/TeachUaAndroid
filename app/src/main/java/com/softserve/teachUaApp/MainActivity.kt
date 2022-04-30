@@ -83,8 +83,7 @@ class MainActivity() : AppCompatActivity(), View.OnClickListener {
         createAdvancedSearchDialog()
         searchAdvBtn.setOnClickListener(this)
         searchBtn.setOnClickListener(this)
-        searchEdit.setOnClickListener(this)
-        searchEdit.setOnClickListener(this)
+        searchEdit.setupClearButtonWithAction()
         clearEdit.setOnClickListener(this)
 
 
@@ -198,8 +197,8 @@ class MainActivity() : AppCompatActivity(), View.OnClickListener {
 
         addTextChangedListener(object : TextWatcher {
             override fun afterTextChanged(editable: Editable?) {
-                var clearIcon = if (editable?.isNotEmpty() == true) R.drawable.ic_clear else 0
-                setCompoundDrawablesWithIntrinsicBounds(0, 0, clearIcon, 0)
+                if (editable?.isNotEmpty() == true) clearEdit.visibility =
+                    View.VISIBLE else clearEdit.visibility = View.INVISIBLE
 
 
             }
@@ -212,7 +211,6 @@ class MainActivity() : AppCompatActivity(), View.OnClickListener {
         })
 
         setOnClickListener {
-
 
         }
 

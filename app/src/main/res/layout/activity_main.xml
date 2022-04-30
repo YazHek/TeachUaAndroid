@@ -75,6 +75,7 @@
                     <ImageView
                         android:id="@+id/clearEdit"
                         android:layout_width="20dp"
+                        android:visibility="invisible"
                         android:layout_height="wrap_content"
                         android:layout_alignTop="@id/searchEdit"
                         android:layout_alignRight="@id/searchEdit"
